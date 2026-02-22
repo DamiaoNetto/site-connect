@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './InfoCard.module.scss'
+import s from './InfoCards.module.scss'
 import Swal from 'sweetalert2'
 
 export default function InfoCard(props) {

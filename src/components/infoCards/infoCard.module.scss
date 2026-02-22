@@ -1,0 +1,53 @@
+.article{
+    max-width: 357px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    h2{
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #122F97;
+    }
+
+    p{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 400;
+        color: #122F97;
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: #205691;
+        font-family: "Source Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.article img{
+    max-width: 100%;
+    min-width: 0;
+
+}
+
+@media(max-width:768px){
+    .article{
+        h2{
+            font-size: 25px;
+        }
+
+        button{
+            font-size:20px ;
+
+        }
+    }
+}
